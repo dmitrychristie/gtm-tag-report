@@ -48,6 +48,10 @@ This Node.js script processes JSON files exported from Google Tag Manager (GTM) 
      ```bash
      cd <project-directory>
      ```
+   - Install the dependencty(ies):
+     ```bash
+     npm install
+     ```
    - Execute the script with the following command:
      ```bash
      node gtm.js
