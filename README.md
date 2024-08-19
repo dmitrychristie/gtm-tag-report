@@ -58,9 +58,5 @@ This Node.js script processes JSON files exported from Google Tag Manager (GTM) 
    - After running the script, HTML files will be generated in the `output` folder.
    - Each file is named using the `publicId` of the GTM container.
 
-5. **Optional: Enable URL Links**:
-   - To generate URLs for the tags in the HTML output, pass `accountId`, `containerId`, and `workspaceId` as command-line arguments when running the script:
-     ```bash
-     node gtm.js --accountId=<your-account-id> --containerId=<your-container-id> --workspaceId=<your-workspace-id>
-     ```
+
    - If these arguments are not provided, the tag names in the HTML will be displayed as plain text.
