@@ -170,6 +170,9 @@ const tagTypeMapping = {
     'custom_image': 'Custom Image',
     'awct': 'Google Ads',
     'pntr': 'Pinterest Tag',
-    'googtag': 'Google Tag'
+    'googtag': 'Google Tag',
+    'baut': 'Bing',
+    'gclidw': 'Google',
+    'sp': 'Google'
     // Add any other specific mappings here if necessary
 };
