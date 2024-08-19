@@ -2,14 +2,13 @@
 
 ## Overview
 
-This Node.js script processes JSON files exported from Google Tag Manager (GTM) and generates HTML tables summarizing tag information. The generated tables are saved in an `output` folder, with filenames based on the `publicId` of each GTM container.
+This Node.js script processes JSON files exported from Google Tag Manager (GTM) and generates a spreadsheet with tabs summarizing tag information. The generated tables are saved in an `output` folder, with filenames based on the `publicId` of each GTM container.
 
 ## Features
 
 - Extracts and formats tag data from JSON files.
-- Generates an HTML table for each GTM container.
+- Generates a spreadsheet with a tab for each GTM container.
 - Supports dynamic URL generation if `accountId`, `containerId`, and `workspaceId` are present.
-- Includes options for URL functionality based on provided parameters.
 
 ## Prerequisites
 
